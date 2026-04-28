@@ -396,7 +396,6 @@ MonoBehaviour:
   joystick: {fileID: 820376881}
   cameraTransform: {fileID: 1427437860}
   moveSpeed: 5
-  rotationSpeed: 100
 --- !u!136 &482129045
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -847,7 +846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 482129042}
-  offset: {x: 0, y: 1.5, z: -1.5}
+  offset: {x: 0, y: 1.2, z: -1.5}
   smoothSpeed: 0.125
 --- !u!114 &1427437862
 MonoBehaviour:
@@ -1258,9 +1257,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 2081673138}
-  playerTransform: {fileID: 482129042}
+  playerMovement: {fileID: 0}
   cameraTransform: {fileID: 1427437860}
-  joystick: {fileID: 820376881}
   backSprite: {fileID: 258963813, guid: e938d17f568fe8e60ab2620759353e80, type: 3}
   frontSprite: {fileID: -1821851757, guid: e938d17f568fe8e60ab2620759353e80, type: 3}
   rightSprite: {fileID: -82517066, guid: e938d17f568fe8e60ab2620759353e80, type: 3}

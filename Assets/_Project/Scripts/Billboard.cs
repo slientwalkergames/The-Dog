@@ -18,6 +18,6 @@ public class Billboard : MonoBehaviour
 
         // Sprite'ın her zaman kameranın baktığı yöne doğru (kameraya tam paralel) bakmasını sağlar.
         // Bu sayede kamera yukarıdan veya aşağıdan baksa bile 2D çizim asla bükülmez, illüzyon bozulmaz.
-        transform.LookAt(transform.position + mainCamera.transform.forward);
+        transform.rotation = mainCamera.transform.rotation;
     }
 }
