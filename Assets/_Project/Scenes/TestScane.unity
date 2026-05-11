@@ -1257,7 +1257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 2081673138}
-  playerMovement: {fileID: 0}
+  playerMovement: {fileID: 482129044}
   cameraTransform: {fileID: 1427437860}
   backSprite: {fileID: 258963813, guid: e938d17f568fe8e60ab2620759353e80, type: 3}
   frontSprite: {fileID: -1821851757, guid: e938d17f568fe8e60ab2620759353e80, type: 3}
